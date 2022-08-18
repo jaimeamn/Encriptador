@@ -1,0 +1,87 @@
+body{
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+header{
+    background-color: #BBBBBB;
+    padding: 5px 0;
+}
+
+.caja{
+    width: 70%;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #0A3871;
+    font-weight: bold;
+    font-size:30px ;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:#c78c19;
+    text-decoration: underline;
+}
+
+h2{
+    text-align: justify;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 40px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+h3{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0  0 10px 0;
+
+}
+.cuadro{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.button-caja{
+    text-align: center; 
+}
+.button{
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    color:white;
+    background-color:#0A3871;
+}
+
+footer{
+    text-align: center;
+    background:  #BBBBBB;
+    padding: 20px;
+    margin-top: 40px;
+}
+.copyright{
+    color: black;
+    font-size: 15px;
+    margin: 20px;
+}
+
+
+

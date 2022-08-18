@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles/css/reset.css">
+    <link rel="stylesheet" href="styles/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        
+        <div class="caja">
+            
+            <h2><img src="styles/img/logo.png" alt="Logo de alura"></h2> <h1>Encriptador de Texto</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    
+    <div class="cuadro">
+        <h3>Cuadro de texto: Ecribe o copie</h3>
+        <textarea class="text" id="textOriginal" name="textarea" rows="15" cols="90">Escribe el texto Aquí, solo letras minusculas sin acento!!</textarea>
+
+    </div>
+    <div class="button-caja">
+        <button class="button" onclick="encriptar()">Encriptar</button>
+        <button class="button" onclick="desencriptar()">Desencriptar</button>
+    </div>
+    <div class="cuadro">
+        <h3>Resultado de  Encriptar/Desencriptar texto</h3>
+        <textarea class="text" id="text_encrip_Desencrip" name="textarea" rows="15" cols="90"></textarea>
+
+    </div>
+    <div class="button-caja">
+        <button class="button" id="copy" onclick="copiar()">Copiar</button>
+    </div>
+    <footer>
+        <p class="copyright">&copy Copyright Encriptador Jaime Martinez - 2022</p>
+    </footer>
+ 
+    
+    
+
+    <script src="/encriptador.js"></script>
+    
+</body>
+
+</html>
